@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -41,24 +42,32 @@
             text-align: center;
             color: #fff;
         }
+
+        .column {
+            flex-direction: column;
+            min-height: 200px;
+        }
     </style>
 </head>
+
 <body>
-    <h1>Flex Start</h1>
+    <h1>Flex in row</h1>
+
+    <p>Flex Start</p>
     <div class="container flex-start">
         <div class="item">1</div>
         <div class="item">Item 2</div>
         <div class="item">Outro item</div>
     </div>
 
-    <h1>Flex End</h1>
+    <p>Flex End</p>
     <div class="container flex-end">
         <div class="item">1</div>
         <div class="item">Item 2</div>
         <div class="item">Outro item</div>
     </div>
 
-    <h1>center</h1>
+    <p>center</p>
     <div class="container center">
         <div class="item">1</div>
         <div class="item">Item 2</div>
@@ -68,7 +77,7 @@
         <div class="item">5</div>
     </div>
 
-    <h1>space-between</h1>
+    <p>space-between</p>
     <div class="container space-between">
         <div class="item">1</div>
         <div class="item">Item 2</div>
@@ -78,7 +87,7 @@
         <div class="item">5</div>
     </div>
 
-    <h1>space-around</h1>
+    <p>space-around</p>
     <div class="container space-around">
         <div class="item">1</div>
         <div class="item">Item 2</div>
@@ -87,5 +96,52 @@
         <div class="item">Outro item</div>
         <div class="item">5</div>
     </div>
+
+    <h1>flex in column</h1>
+
+    <p>Flex Start Column</p>
+    <div class="container flex-start column">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+    </div>
+
+    <p>Flex End column</p>
+    <div class="container flex-end column">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+    </div>
+
+    <p>center column</p>
+    <div class="container center column">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+        <div class="item">4</div>
+        <div class="item">Outro item</div>
+        <div class="item">5</div>
+    </div>
+
+    <p>space-between column</p>
+    <div class="container space-between column">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+        <div class="item">4</div>
+        <div class="item">Outro item</div>
+        <div class="item">5</div>
+    </div>
+
+    <p>space-around column</p>
+    <div class="container space-around column">
+        <div class="item">1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Outro item</div>
+        <div class="item">4</div>
+        <div class="item">Outro item</div>
+        <div class="item">5</div>
+    </div>
 </body>
+
 </html>
